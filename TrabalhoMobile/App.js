@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style = {styles.container}>
       {/* <Text>teste</Text> */}
-      <Titulo corTexto = "#f12" tamanhoFonte = "3em" mensagem = "Calculadora de IMC"/>
+      <Titulo corTexto = "#f12" t={30} mensagem = "Calculadora de IMC"/>
     </View>
   );
 }
@@ -17,5 +17,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'top',
+    marginTop: 30,
   },
 });
